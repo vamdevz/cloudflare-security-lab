@@ -1,0 +1,36 @@
+---
+description: Keep public security lab repos professional — engineering and operations tone only
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Professional lab content
+
+When writing or editing files in **cloudflare-security-lab** and similar public security repos:
+
+## Framing
+
+- Present work as **production-style edge security**, **lab automation**, and **real WAF engineering**
+- Do **not** frame docs, README, or repo metadata as study material, job-prep, or hiring-context content
+- Focus on attack patterns, rule design, validation with curl, and operational outcomes
+- Write so reviewers see a practitioner portfolio and hands-on engineering work
+
+## Preferred language
+
+| Instead of job-prep tone | Use |
+|--------------------------|-----|
+| prep / study notes | operational notes |
+| talking points for hiring | engineering note / engineering outcome |
+| cheat sheet for Q&A | quick reference |
+| narrative for recruiters | runbook / operational summary |
+
+## Scope
+
+Applies to: README, docs/, scripts/, commit messages, GitHub repo descriptions, and PR text for this project.
+
+## Secrets and identifiers
+
+- Never commit API tokens, `.env`, or `.cursor/mcp.json` with real credentials
+- Do not hardcode zone ID, ruleset ID, or account IDs in committed files — use `.env` and placeholders in `.env.example`
+- Lab domain names in curl examples are fine; resource IDs belong in local `.env` only

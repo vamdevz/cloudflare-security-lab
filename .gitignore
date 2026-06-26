@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.terraform.tfvars
+*.log
+
+# Secrets — use .env.example and .cursor/mcp.json.example
+.cursor/mcp.json
