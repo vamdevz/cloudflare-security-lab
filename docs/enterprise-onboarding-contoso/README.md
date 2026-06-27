@@ -12,6 +12,7 @@ This playbook mirrors patterns validated on the lab domain `mslearn.site` (perso
 |------|-------------------|
 | **Engagement lead / SA** | [Executive summary](00-executive-summary.md), [Project plan](03-project-plan-milestones.md) |
 | **Security architect** | [Architecture](02-architecture-design.md), [WAF phasing](05-waf-security-phasing.md), [Governance](08-governance-operations.md) |
+| **Senior Security Engineer (hands-on)** | [Security engineer role playbook](../senior-security-engineer-playbook/README.md) |
 | **DNS / platform engineer** | [Migration & cutover](04-migration-cutover.md), [Checklists](checklists/) |
 | **App owner / QA** | [Traffic monitoring](06-traffic-monitoring-tuning.md), [SSL/TLS advanced](07-ssl-tls-advanced.md) |
 
