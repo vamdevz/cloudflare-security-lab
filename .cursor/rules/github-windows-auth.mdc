@@ -1,0 +1,27 @@
+---
+description: GitHub auth on Windows — see user-global rule; project-specific notes
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# GitHub auth (this repo)
+
+Full steps live in the **user-global** rule: `~/.cursor/rules/github-windows-auth.mdc`
+
+## This repo
+
+| Item | Value |
+|------|--------|
+| Remote | `https://github.com/vamdevz/cloudflare-security-lab.git` |
+| Default branch | `main` |
+
+## Quick agent commands
+
+```powershell
+cd "C:\Users\Mr. Dev Mishra\Documents\Projects\cloudflare-security-lab"
+gh auth status
+git push origin main
+```
+
+If `gh auth status` fails, use `GH_TOKEN` bootstrap from `git credential fill` (see global rule Step 3). Do **not** run `gh auth login` headlessly — it needs a browser for `read:org` scope.
