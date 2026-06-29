@@ -2,8 +2,6 @@
 
 Hands-on lab for Cloudflare security automation and production-style edge security engineering.
 
-**📖 [Top 20 Advanced WAF Rules](docs/ADVANCED-WAF-RULES.md)** — expressions, API curl commands, validation tests, and operational notes.
-
 ## Connect options
 
 ### Option A: MCP in Cursor (recommended for AI-assisted work)
