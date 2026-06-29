@@ -31,7 +31,7 @@ python scripts/zone_security_audit.py
 
 | # | Use case | Script / Terraform | Engineering outcome |
 |---|----------|-------------------|---------------------|
-| 1 | Zone inventory | `scripts/list_zones.py` | "I automated zone discovery" |
+| 1 | Zone inventory | `scripts/list_zones.py` | "Zone Inventory" |
 | 2 | Security baseline audit | `scripts/zone_security_audit.py` | SSL, HTTPS, WAF gaps |
 | 3 | WAF-as-code | `terraform/main.tf` | PR-based rule changes |
 | 4 | Rate limit API paths | `terraform/main.tf` | Protect auth/API abuse |
