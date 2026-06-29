@@ -4,7 +4,7 @@ Hands-on lab for Cloudflare security automation and production-style edge securi
 
 ## Connect options
 
-### Option A: MCP in Cursor (recommended for AI-assisted work)
+### Option A: MCP in Cursor/AI (recommended for AI-assisted work)
 
 1. Create an API token: [Cloudflare Dashboard → API Tokens](https://dash.cloudflare.com/profile/api-tokens)
    - Permissions: **Zone:Read**, **Zone:Edit**, **Account:Read** (for WAF/rulesets)
