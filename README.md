@@ -4,10 +4,6 @@ Hands-on lab for Cloudflare security automation and production-style edge securi
 
 **📖 [Top 20 Advanced WAF Rules](docs/ADVANCED-WAF-RULES.md)** — expressions, API curl commands, validation tests, and operational notes.
 
-**🏢 [Enterprise onboarding playbook (Contoso)](docs/enterprise-onboarding-contoso/README.md)** — phased migration, WAF rollout, HSTS/HTTP/3, governance, and checklists for production domains.
-
-**👤 [Senior Security Engineer role playbook](docs/senior-security-engineer-playbook/README.md)** — phase-by-phase mock drills, real examples, and artifacts for the security lead on the engagement.
-
 ## Connect options
 
 ### Option A: MCP in Cursor (recommended for AI-assisted work)
